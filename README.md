@@ -1,3 +1,4 @@
+# Render Log Viewer
 Create a render-log analysis UI.
 
 A Qt UI that allows you to browse for a log file and display the following information:
@@ -9,14 +10,11 @@ A Qt UI that allows you to browse for a log file and display the following infor
 
 We use https://pypi.org/project/PySide2/ for creating python UIs.
 
-
-Note:
-in render_log_viewer.py line 43, please change the file path to your personal path which include the log files.
-
-# Render Log Viewer
-
+## Note:
+In render_log_viewer.py line 43, please change the file path to your personal path which include the log files.
 
 ## Instalation
+
 ```bash
 python -m venv venv
 source venv/bin/activate
