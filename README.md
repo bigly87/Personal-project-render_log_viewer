@@ -13,25 +13,36 @@ We use https://pypi.org/project/PySide2/ for creating python UIs.
 Note:
 in render_log_viewer.py line 43, please change the file path to your personal path which include the log files.
 
-Render Log Viewer
-Instalation
+# Render Log Viewer
+
+
+## Instalation
+```bash
 python -m venv venv
 source venv/bin/activate
 
 (venv) pip install -r requirements.txt
 (venv) python render_log_viewer.py
-Usage
+```
+## Usage
+```bash
 (venv) python render_log_viewer.py
-Development
+```
+
+## Development
+```bash
 python -m venv venv
 source venv/bin/activate
 
 (venv) pip install -r requirements-dev.txt
+```
 Make sure to format the code before commit:
-
+```bash
 black <FILE_NAME>
+```
 To update the requirements:
-
+```bash
 (venv) pip install pip-tools
 (venv) pip-compile --output-file=requirements.txt
 (venv) pip-compile --extra=dev --output-file=requirements-dev.txt
+```
