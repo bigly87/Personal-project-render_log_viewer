@@ -11,4 +11,6 @@ A Qt UI that allows you to browse for a log file and display the following infor
 
 We use https://pypi.org/project/PySide2/ for creating python UIs.
 
-'''
+
+Note:
+in render_log_viewer.py line 43, please change the file path to your personal path which include the log files.
